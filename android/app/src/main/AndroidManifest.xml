@@ -12,6 +12,9 @@
       android:theme="@style/AppTheme"
       android:usesCleartextTraffic="true"
       >
+      <meta-data
+        android:name="com.naver.maps.map.CLIENT_ID"
+        android:value="jq1irk0oqj" /> 
       <activity
         android:name=".MainActivity"
         android:label="@string/app_name"
